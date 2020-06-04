@@ -1,0 +1,7 @@
+set name=license
+set password=QEK2dgw5EBfKaCPPzkmZzyIycsLYfr1euBtcz6NDlXt-Nzkby4wJSTetNeF6OgSNJa_r_MfYmqGjheBcdPYDprO7lKLCQIzkdyouxuEbEpM6R8hZhYEubQHCf-pZ2lK7kROnS_KtOwEvJm0IYSQEZT8NFcdIWQnLmpM0h61J7Z4=RYebA8MtE9_vLfAC_T3s4m6cZGgR2uNFCtTtMrEooTme4QzUKySf4nvmV7SK_TM1hLhTtHbh0NJTHgwNfvfsLEzC9QjcGTqF9UDIciIqh7nnmv5LJgu2MSOdiMFUzpyEljo3TPET9dzSZfMEzifjMcL-WQVxhRxdPIG3J0DpMPg=
+set host=rqdatad-pro.ricequant.com
+set port=16011
+set url=rqdata://%name%:%password%@%host%:%port%
+setx RQDATAC2_CONF %url% 
+pause
